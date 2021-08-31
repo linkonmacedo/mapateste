@@ -57,6 +57,13 @@
 
         }
 
+        .container{
+            max-width: 800px;            
+            display: flex;
+            justify-content: space-between;
+            margin: auto;
+        }
+
                 </style>
 </head>
 <body>
@@ -73,10 +80,16 @@
     
   </nav>
 <div class="content">
-    conteúdo
+    <div class="container">
+       <?php
+          include("pages/home.php");
+       ?>   
+
+    </div>
+    
 </div>    
   <footer>
-      Footer
+      dados academicos
   </footer>
 </body>
 </html>
